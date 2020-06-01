@@ -197,7 +197,6 @@ nav {
   position: relative;
   /*makes plant imgs absolute relative to this*/
   z-index: 1;
-  image-orientation: from-image;
 }
 
 .hero-elena {
@@ -316,7 +315,7 @@ nav {
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
   position: relative;
-  image-orientation: from-image;
+  image-orientation: none;
 }
 
 .about-image img {
