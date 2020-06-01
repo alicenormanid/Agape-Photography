@@ -160,7 +160,7 @@ nav {
   background: linear-gradient(#dad8dd, #dad1d4);
   position: relative; /*makes plant imgs absolute relative to this*/
   z-index: 1;
-  image-orientation: from-image;
+  // image-orientation: -90deg;
 }
 
 .hero-elena {
@@ -255,18 +255,8 @@ nav {
 .about-image {
   flex: 1 1 40rem;
   position: relative;
-  image-orientation: from-image;
+  image-orientation: none;
 }
-
-// .about-image h5 {
-//     position: absolute;
-//     color: white;
-//     font-size: 1.5rem;
-//     text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-//     top: 95%;
-//     right: 5%;
-//     transform: translate(-50%, -20%);
-// }
 
 .about-image img {
   width: 100%;
