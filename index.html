@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meet Louisa Agapiou, the photographer who brings both her camera and her heart to each photoshoot session.
+      A born-and-raised Albertan, Louisa is more than familiar with the beautiful local landscapes and knows how to use them to your advantage."
+    />
+    <meta name="robots" content="index,follow" />
+
+    <link rel="icon" href="./img/photograph.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Agape Photography</title>
+  </head>
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Agape Photography</h1>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-introduction flex">
+          <h2>
+            Your personal <br />
+            photographer
+          </h2>
+          <p>
+            Meet Louisa Agapiou, the photographer who brings both her camera and
+            her heart to each photoshoot session. <br />A born-and-raised
+            Albertan, Louisa is more than familiar with the beautiful local
+            landscapes and knows how to use them to your advantage.
+          </p>
+          <a href="#work">Gallery</a>
+        </div>
+
+        <div class="hero-images">
+          <img
+            class="hero-elena"
+            src="./img/louisa-main.JPG"
+            alt="picture of Louisa"
+          />
+          <!-- <img src="./img/plant1.png" alt="" class="plant1 plant" />
+          <img src="./img/plant2.png" alt="" class="plant2 plant" /> -->
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <img src="./img/about-image.jpg" alt="portrait picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Louisa Agapiou</h2>
+          <div class="about-work">
+            <h3>About Louisa</h3>
+            <p>
+              Louisa believes that taking your photos should be a fun,
+              comfortable, and easygoing experience! She is a portrait, wedding,
+              and special event photographer primarily located in Edmonton,
+              Alberta, but able to travel province-wide.
+            </p>
+          </div>
+
+          <div class="about-life">
+            <h3>Her Passion</h3>
+            <p>
+              Portrait photography has been a favourite pastime of Louisa's
+              since the age of 14. Louisa has done countless fun photoshoots
+              with her friends and peers throughout junior high, high school,
+              and university. Her favourite part of taking pictures is getting
+              to hang out with new people and make them feel good with the final
+              result.
+            </p>
+          </div>
+
+          <div class="about-contact">
+            <h3>Get in touch!</h3>
+            <p>
+              If you are interested in booking a photography session with Louisa,
+              enter your email on the contact page (or just
+              <a href="#contact" id="click-here">click here</a>) and she will get
+              back to you as soon as possible!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallery" id="work">
+        <header class="gallery-head">
+          <h2>Portrait Samples</h2>
+          <p>
+            Just a few of my beautiful clients.
+            <a
+              id="click-here"
+              href="https://www.facebook.com/pg/agapephotographycanada/photos/?ref=page_internal"
+              >Click here to see more.</a
+            >
+          </p>
+        </header>
+        <img class="gallery1" src="./img/gallery-1.png" alt="man in suit" />
+        <img class="gallery2" src="./img/gallery-2.jpg" alt="lady in coat" />
+        <img class="gallery3" src="./img/gallery-3.png" alt="lady in t-shirt" />
+        <img class="gallery4" src="./img/gallery-4.png" alt="lady in jacket" />
+      </div>
+
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>
+            Get in <br />
+            <span>touch.</span>
+          </h2>
+          <form>
+            <label for="email">Your name:</label>
+            <input type="name" id="name" required />
+            <label for="email">Your e-mail:</label>
+            <input type="email" id="email" required />
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="./img/contact-image.jpg" alt="elena-joy" />
+      </section>
+    </main>
+
+    <footer>
+      <h4>Agape Photography &copy; 2020</h4>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/agapephotographycanada/"
+            ><img src="./img/facebook-icon.svg" alt="facebook social media"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/agapephotographycanada/"
+            ><img src="./img/instagram 1.svg" alt="instagram social media"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./app.js"></script>
+
+    <button onclick="topFunction()" id="top-button">go to top</button>
+    <!--Scroll to Top button-->
+  </body>
+</html>
