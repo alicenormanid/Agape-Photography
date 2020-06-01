@@ -433,12 +433,12 @@ footer h4 {
 
   /*Gallery section*/
   .gallery img {
-    grid-row: auto;
-    grid-column: auto;
+
   }
 
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-template-columns: repeat(2, minmax(20rem, 1fr));
+    grid-template-rows: repeat(auto, minmax(20rem, 1fr));
   }
 
   .gallery-head {

@@ -485,13 +485,11 @@ footer h4 {
     font-size: 6rem;
   }
   /*Gallery section*/
-  .gallery img {
-    grid-row: auto;
-    grid-column: auto;
-  }
   .gallery {
-    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    -ms-grid-columns: (minmax(20rem, 1fr))[2];
+        grid-template-columns: repeat(2, minmax(20rem, 1fr));
+    -ms-grid-rows: (minmax(20rem, 1fr))[auto];
+        grid-template-rows: repeat(auto, minmax(20rem, 1fr));
   }
   .gallery-head {
     display: none;
