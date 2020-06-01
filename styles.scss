@@ -257,11 +257,11 @@ nav {
   object-fit: cover;
 }
 
-.gallery1 {
-}
+// .gallery1 {
+// }
 
-.gallery2 {
-}
+// .gallery2 {
+// }
 
 .gallery-head {
   position: absolute;
@@ -270,7 +270,7 @@ nav {
   transform: translate(-50%, -50%);
   color: white;
   background-color: rgba(77, 67, 69, 0.7);
-  padding: 5rem 10rem;
+  padding: 3rem 8rem;
   text-align: center;
 }
 
@@ -372,6 +372,11 @@ footer h4 {
   .hero-introduction p {
     padding: 5rem 3rem;
   }
+
+  .hero-images {
+    display:none;
+  }
+
   /*Burger Menu*/
   .burger {
     position: relative;
@@ -442,7 +447,12 @@ footer h4 {
   }
 
   .gallery-head {
-    display: none;
+    display: block;
+    padding: 2rem 5rem;
+
+    h2 {
+      display: none;
+    }
   }
 
   .contact img {
