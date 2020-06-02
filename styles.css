@@ -26,7 +26,7 @@
   --header2: calc(2.5rem + 1vw);
   --header3: calc(2rem + 1vw);
   --header4: calc(2.4rem + 1vw);
-  --text: calc(.7rem + 1vw);
+  --text: calc(0.7rem + 1vw);
   --big: calc(6rem + 1vw);
   --special-color: #ca1234;
   --background-color: rgb(61, 59, 63);
@@ -416,7 +416,9 @@ footer h4 {
 }
 
 @media screen and (max-width: 888px) {
-  p, a, label {
+  p,
+  a,
+  label, button {
     font-size: large;
   }
   .hero {
@@ -519,6 +521,12 @@ footer h4 {
             order: 2;
     text-align: center;
     padding: 1rem;
+  }
+  #top-button:hover {
+    background-color: var(--special-color);
+  }
+  #top-button:active {
+    background-color: lightgray;
   }
 }
 
