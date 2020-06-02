@@ -24,7 +24,7 @@
   --header2: calc(2.5rem + 1vw);
   --header3: calc(2rem + 1vw);
   --header4: calc(2.4rem + 1vw);
-  --text: calc(1rem + 1vw);
+  --text: calc(.7rem + 1vw);
   --big: calc(6rem + 1vw);
 
   --special-color: #ca1234;
@@ -223,7 +223,8 @@ nav {
 }
 
 .about-image {
-  flex: 2 2 80rem;
+  flex: 1 1 20rem;
+  flex-wrap: wrap;
   position: relative;
   image-orientation: from-image;
 }
@@ -434,10 +435,6 @@ footer h4 {
   /* About Section */
   .about-text div {
     padding: 3rem;
-  }
-
-  .about-image h5 {
-    font-size: 6rem;
   }
 
   /*Gallery section*/
