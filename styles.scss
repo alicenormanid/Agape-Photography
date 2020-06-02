@@ -137,6 +137,7 @@ nav {
 .hero-introduction {
   flex: 2 1 40rem; /* '2' squishes image so no scroll is activated */
   text-align: center;
+
 }
 
 .hero-introduction p {
@@ -157,7 +158,7 @@ nav {
 }
 
 .hero-images {
-  flex: 1 1 40rem;
+  flex: 1 1 20rem;
   background: linear-gradient(#dad8dd, #dad1d4);
   position: relative; /*makes plant imgs absolute relative to this*/
   z-index: 1;
