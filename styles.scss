@@ -186,7 +186,6 @@ nav {
 //   left: 40%;
 // }
 
-
 .burger {
   display: block; /*Hides burger and checkbox when in desktop view*/
   cursor: pointer;
@@ -219,11 +218,12 @@ nav {
   font-family: "Vibes";
   font-size: 6rem;
   padding: 4rem 0rem;
+  margin-right: 1rem;
   top: 20%;
 }
 
 .about-image {
-  flex: 1 1 40rem;
+  flex: 2 2 80rem;
   position: relative;
   image-orientation: from-image;
 }
@@ -365,6 +365,10 @@ footer h4 {
 }
 
 @media screen and (max-width: 888px) {
+  p, a, label {
+    font-size: large;
+  }
+
   .hero {
     width: 100%;
   }
@@ -374,7 +378,7 @@ footer h4 {
   }
 
   .hero-images {
-    display:none;
+    display: none;
   }
 
   /*Burger Menu*/
@@ -438,7 +442,6 @@ footer h4 {
 
   /*Gallery section*/
   .gallery img {
-
   }
 
   .gallery {
