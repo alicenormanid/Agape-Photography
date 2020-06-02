@@ -344,6 +344,14 @@ footer ul {
 footer h4 {
   flex: 1 1 40rem;
   font-size: calc(1rem + 1vw);
+  font-weight: 100;
+  font-size: small;
+
+  #alice-link {
+    color: white;
+    text-decoration: underline;
+    font-size: inherit;
+  }
 }
 
 /* Go To Top button */
@@ -368,7 +376,8 @@ footer h4 {
 @media screen and (max-width: 888px) {
   p,
   a,
-  label, button {
+  label,
+  button {
     font-size: large;
   }
 
