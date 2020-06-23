@@ -337,7 +337,7 @@ nav {
 .form-wrapper input {
   display: block;
   margin: 3rem 0rem;
-  border: 2px solid var(--special-color);
+  border: 2px solid black;
   padding: 1rem;
 }
 
